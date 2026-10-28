@@ -4,8 +4,8 @@ Site: https://viniciusgomesferreirasilva.github.io/Vila-Parque/
 
 ## Apresentações separadas
 
-1. `assets/vila-parque-empreendimento-redesenhado.pdf`: apresentação Vila Parque redesenhada, 17 páginas.
-2. `assets/vila-parque-mall-office-redesenhado.pdf`: BOOK Mall & Office redesenhado, 23 páginas.
+1. `assets/vila-parque-empreendimento-redesenhado.pdf`: apresentação Vila Parque redesenhada, 19 páginas.
+2. `assets/vila-parque-mall-office-redesenhado.pdf`: BOOK Mall & Office redesenhado, 25 páginas.
 
 Os dois PDFs têm nova composição, tipografia, capas e organização. Textos, fotos e plantas são dos originais. As plantas técnicas permanecem vetoriais. O site tem botões separados para abrir e baixar cada um. O PDF unificado foi removido da versão atual por solicitação do usuário.
 
@@ -20,3 +20,5 @@ Use **Baixar site completo** no site ou https://github.com/viniciusgomesferreira
 ## Recriar os PDFs
 
 Os originais ficam em `assets/apresentacao-vila-parque.pdf` e `assets/book-mall-office-original.pdf`, como fontes de trabalho. Instale `tools/requirements-pdf.txt`, com fontes DejaVu Sans e Serif disponíveis em `/usr/share/fonts/truetype/dejavu/`, e execute `python3 tools/redesenhar_pdfs.py`. O script redesenha os dois PDFs e verifica os termos dos textos e os hashes de pixels das fotografias utilizadas. A auditoria está em `assets/auditoria-redesign.json`. Plantas são incorporadas como conteúdo vetorial original, com nova organização ao redor. As prévias do site ficam em `assets/apresentacoes/`.
+
+Uma fotografia/ilustração original por slide. As páginas com duas imagens foram desdobradas, preservando os textos. Montagens que já fazem parte de uma única imagem original são mantidas intactas. O mapa de localização usa a orientação correta de 180° e a foto da fachada usa 90°, mantendo os pixels originais.
