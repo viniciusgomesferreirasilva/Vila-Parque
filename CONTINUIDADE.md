@@ -54,3 +54,9 @@ Próximos passos quando as configurações forem aplicadas/publicadas: conferir 
 ## Migração para repositório dedicado
 
 O usuário criou o repositório público Vila-Parque, e a leitura Git confirmou que estava vazio. O site foi copiado para a raiz de `/workspace/Vila-Parque`, preservando o repositório anterior e os backups em `/workspace/backups`. Esta é agora a pasta de trabalho do site. `publicar.py` foi ajustado para publicar a raiz, main e gh-pages no novo origin. O botão Baixar PDF oferece download direto do único PDF público, sem ZIP. URLs antigas em registros anteriores são históricas; usar `/Vila-Parque/`.
+
+## Migração concluída e publicação confirmada
+
+O site está publicado no repositório dedicado `viniciusgomesferreirasilva/Vila-Parque`, raiz da main e gh-pages. O deploy nativo 40718779075 concluiu com Status Success em 1m31s. Endereço: https://viniciusgomesferreirasilva.github.io/Vila-Parque/ . Botão Baixar PDF completo validado com download real em Chromium, desktop 1440px e celular 390px; nome Vila-Parque-Apresentacao-Completa.pdf, 41 páginas.
+
+A exclusão do repositório antigo foi tentada após confirmar a publicação e os backups, conforme autorização do usuário: `gh repo delete viniciusgomesferreirasilva/VG-curr-culos-IA --yes`. A API retornou Forbidden; o antigo NÃO foi excluído. O site e todos os próximos trabalhos devem usar este repositório dedicado, não o anterior. A exclusão é a única pendência da migração.
