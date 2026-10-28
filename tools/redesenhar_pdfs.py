@@ -171,9 +171,14 @@ def book():
    used.append(image(c,src,235 if part==0 else 255,(495,100,735,495)))
   elif i in [4,13]:
    name='CENTRO COMERCIAL' if i==4 else 'OFFICE CENTER'
-   paragraph(c,'VILA PARQUE',50,650,420,110,42,'Serif',CREAM)
-   paragraph(c,name,50,510,420,140,29,fill=GOLD)
-   used.append(image(c,src,355 if i==4 else 1158,(520,100,710,580)))
+   if i==4:
+    # Keep the chapter titles, removing only the photo requested on output slide 7.
+    paragraph(c,'VILA PARQUE',200,555,880,150,60,'Serif',CREAM)
+    paragraph(c,name,200,370,880,120,30,fill=GOLD)
+   else:
+    paragraph(c,'VILA PARQUE',50,650,420,110,42,'Serif',CREAM)
+    paragraph(c,name,50,510,420,140,29,fill=GOLD)
+    used.append(image(c,src,1158,(520,100,710,580)))
   records.append({'document':'BOOK','page':output_i+1,'source_page':i+1,'photos':used,'vector_plan':i in tech})
   c.showPage()
  c.save();result=fitz.open(stream=buf.getvalue(),filetype='pdf')

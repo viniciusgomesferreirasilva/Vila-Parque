@@ -85,3 +85,10 @@ Fotos de pessoas permanecem exatamente as originais: hashes de pixels verificado
 ## Remoção final solicitada — slide 7 do Vila Parque
 
 Usuário pediu remover somente a imagem do slide 7 da apresentação Vila Parque. Correspondia à imagem xref201 da fonte VP, em uma página sem texto editorial. A imagem foi excluída do gerador e o slide vazio foi eliminado; VP passa de 19 para 18 páginas, com paginação ajustada. BOOK continua com 25 páginas e seu PDF não foi modificado. Usar `python3 tools/redesenhar_pdfs.py --document VP` para atualizar apenas o empreendimento. Galeria e download do site atualizados, sem outras alterações de conteúdo.
+
+
+## Correção confirmada do BOOK Mall & Office — slide 7
+
+O usuário confirmou a opção 2: corrigir o próprio BOOK, não substituí-lo pelo Vila Parque. A foto de pessoas do slide 7 do BOOK (xref355 da fonte, página 5 original) foi retirada. Os títulos Vila Parque / Centro Comercial foram preservados como abertura de seção; BOOK continua com 25 páginas. O PDF Vila Parque de 18 páginas ficou byte a byte inalterado. Site e prévias usam versão `book-slide7-corrigido`.
+
+A causa adicional de confusão era o arquivo ZIP do repositório, que incluía fontes antigas. Download do site passou a `downloads/Vila-Parque-Site.zip`, gerado por `tools/empacotar_site.py`: apenas arquivos usados no site e exatamente dois PDFs atuais. Recriar esse pacote antes de commitar próximas alterações. Originais-fonte continuam no GitHub para reprodução, mas fora do pacote de download do site.
