@@ -65,3 +65,8 @@ A exclusão do repositório antigo foi tentada após confirmar a publicação e 
 ## PDFs separados — requisito atual
 
 O usuário alterou o requisito: o primeiro PDF Vila Parque (17 páginas) e o segundo BOOK Mall & Office (23 páginas) devem permanecer SEPARADOS. Instruções anteriores para unir os materiais estão superadas. O site oferece quatro botões: abrir e baixar para cada PDF. Originais mantidos byte a byte. O PDF unificado, seu gerador e auditoria foram removidos da versão atual; continuam no histórico Git. O download do site contém os dois arquivos separados.
+
+
+## Downloads alternativos
+
+Usuário relatou falha nos anexos locais do chat para BOOK e site ZIP. Disponibilizar links HTTPS do GitHub: BOOK pelo endpoint github.com/.../raw/refs/heads/main/assets/book-mall-office-original.pdf e site pelo codeload.github.com/.../zip/refs/heads/main. Não depender somente de links sandbox temporários. Site ganhou link alternativo do BOOK e download do site via codeload. A pasta /mnt/data não é gravável neste ambiente mesmo com escalonamento; não prometer anexos por esse caminho.
