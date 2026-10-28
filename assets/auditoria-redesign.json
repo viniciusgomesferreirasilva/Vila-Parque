@@ -1,259 +1,5 @@
 [
   {
-    "document": "BOOK",
-    "page": 1,
-    "source_page": 1,
-    "photos": [
-      {
-        "xref": 13,
-        "source_bytes_sha256": "9378d3027811d9b973a245dfe0c7491caa0b6e6a8bac5dac816044b66c95e9d1",
-        "source_pixel_digest": "1f08302ede096fd0b60c9ee5139631e9"
-      }
-    ],
-    "vector_plan": false,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 2,
-    "source_page": 2,
-    "photos": [
-      {
-        "xref": 108,
-        "source_bytes_sha256": "247bc4bb7d947db045ca242e5c46719881e921c9af05f008bc7e832cb8be4ba7",
-        "source_pixel_digest": "07aca8752e55adab37b90ec7a5e65d47"
-      }
-    ],
-    "vector_plan": false,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 3,
-    "source_page": 2,
-    "photos": [
-      {
-        "xref": 71,
-        "source_bytes_sha256": "5a5262a7f450b8b7ac32cbfd912c2f314857e3a5758eb72b1bb098cf9572f52c",
-        "source_pixel_digest": "9fd5a2192aa970508d5a5c94c2c6a141"
-      }
-    ],
-    "vector_plan": false,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 4,
-    "source_page": 3,
-    "photos": [
-      {
-        "xref": 145,
-        "source_bytes_sha256": "e936e7dc04bf057e1c469467cd27348dc3b6593978b067da45d0d523d402f9f2",
-        "source_pixel_digest": "09962800c5e92a300ca33cebf60d82cd"
-      }
-    ],
-    "vector_plan": false,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 5,
-    "source_page": 4,
-    "photos": [
-      {
-        "xref": 235,
-        "source_bytes_sha256": "d5a1d6604b93814ef98dfa98a16700b9ba95c09f6b389e7cc25b57756dfcc26d",
-        "source_pixel_digest": "b4f14e56ac74671cc91aa0bdfee04af1"
-      }
-    ],
-    "vector_plan": false,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 6,
-    "source_page": 4,
-    "photos": [
-      {
-        "xref": 255,
-        "source_bytes_sha256": "4be0994510f0641e546a74467232e531a2ad92ac172ff24eae0d37164ea31b82",
-        "source_pixel_digest": "faf23dc75c9b0105db087a1f26998fb6"
-      }
-    ],
-    "vector_plan": false,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 7,
-    "source_page": 5,
-    "photos": [
-      {
-        "xref": 355,
-        "source_bytes_sha256": "32835dd5b3c84eab692b78a2d82b76bd7f3be0e373a04b8e2a5dcd98b3800cf6",
-        "source_pixel_digest": "9e361422a6be1d3571fa947b242b896e"
-      }
-    ],
-    "vector_plan": false,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 8,
-    "source_page": 6,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 9,
-    "source_page": 7,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 10,
-    "source_page": 8,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 11,
-    "source_page": 9,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 12,
-    "source_page": 10,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 13,
-    "source_page": 11,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 14,
-    "source_page": 12,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 15,
-    "source_page": 13,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 16,
-    "source_page": 14,
-    "photos": [
-      {
-        "xref": 1158,
-        "source_bytes_sha256": "b5b9c24cb132d90b7ea46bcea7e54038226bf482b189c6f2917611ee6088eb9b",
-        "source_pixel_digest": "3c76e3ed93f5085e91727124446d4234"
-      }
-    ],
-    "vector_plan": false,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 17,
-    "source_page": 15,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 18,
-    "source_page": 16,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 19,
-    "source_page": 17,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 20,
-    "source_page": 18,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 21,
-    "source_page": 19,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 22,
-    "source_page": 20,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 23,
-    "source_page": 21,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 24,
-    "source_page": 22,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 25,
-    "source_page": 23,
-    "photos": [
-      {
-        "xref": 13,
-        "source_bytes_sha256": "9378d3027811d9b973a245dfe0c7491caa0b6e6a8bac5dac816044b66c95e9d1",
-        "source_pixel_digest": "1f08302ede096fd0b60c9ee5139631e9"
-      }
-    ],
-    "vector_plan": false,
-    "all_source_text_tokens_preserved": true
-  },
-  {
     "document": "VP",
     "page": 1,
     "source_page": 1,
@@ -485,6 +231,254 @@
         "source_pixel_digest": "f468d6131c1971674a6cfb01bdd05a3b"
       }
     ],
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 1,
+    "source_page": 1,
+    "photos": [
+      {
+        "xref": 13,
+        "source_bytes_sha256": "9378d3027811d9b973a245dfe0c7491caa0b6e6a8bac5dac816044b66c95e9d1",
+        "source_pixel_digest": "1f08302ede096fd0b60c9ee5139631e9"
+      }
+    ],
+    "vector_plan": false,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 2,
+    "source_page": 2,
+    "photos": [
+      {
+        "xref": 108,
+        "source_bytes_sha256": "247bc4bb7d947db045ca242e5c46719881e921c9af05f008bc7e832cb8be4ba7",
+        "source_pixel_digest": "07aca8752e55adab37b90ec7a5e65d47"
+      }
+    ],
+    "vector_plan": false,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 3,
+    "source_page": 2,
+    "photos": [
+      {
+        "xref": 71,
+        "source_bytes_sha256": "5a5262a7f450b8b7ac32cbfd912c2f314857e3a5758eb72b1bb098cf9572f52c",
+        "source_pixel_digest": "9fd5a2192aa970508d5a5c94c2c6a141"
+      }
+    ],
+    "vector_plan": false,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 4,
+    "source_page": 3,
+    "photos": [
+      {
+        "xref": 145,
+        "source_bytes_sha256": "e936e7dc04bf057e1c469467cd27348dc3b6593978b067da45d0d523d402f9f2",
+        "source_pixel_digest": "09962800c5e92a300ca33cebf60d82cd"
+      }
+    ],
+    "vector_plan": false,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 5,
+    "source_page": 4,
+    "photos": [
+      {
+        "xref": 235,
+        "source_bytes_sha256": "d5a1d6604b93814ef98dfa98a16700b9ba95c09f6b389e7cc25b57756dfcc26d",
+        "source_pixel_digest": "b4f14e56ac74671cc91aa0bdfee04af1"
+      }
+    ],
+    "vector_plan": false,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 6,
+    "source_page": 4,
+    "photos": [
+      {
+        "xref": 255,
+        "source_bytes_sha256": "4be0994510f0641e546a74467232e531a2ad92ac172ff24eae0d37164ea31b82",
+        "source_pixel_digest": "faf23dc75c9b0105db087a1f26998fb6"
+      }
+    ],
+    "vector_plan": false,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 7,
+    "source_page": 5,
+    "photos": [],
+    "vector_plan": false,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 8,
+    "source_page": 6,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 9,
+    "source_page": 7,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 10,
+    "source_page": 8,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 11,
+    "source_page": 9,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 12,
+    "source_page": 10,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 13,
+    "source_page": 11,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 14,
+    "source_page": 12,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 15,
+    "source_page": 13,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 16,
+    "source_page": 14,
+    "photos": [
+      {
+        "xref": 1158,
+        "source_bytes_sha256": "b5b9c24cb132d90b7ea46bcea7e54038226bf482b189c6f2917611ee6088eb9b",
+        "source_pixel_digest": "3c76e3ed93f5085e91727124446d4234"
+      }
+    ],
+    "vector_plan": false,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 17,
+    "source_page": 15,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 18,
+    "source_page": 16,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 19,
+    "source_page": 17,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 20,
+    "source_page": 18,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 21,
+    "source_page": 19,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 22,
+    "source_page": 20,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 23,
+    "source_page": 21,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 24,
+    "source_page": 22,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 25,
+    "source_page": 23,
+    "photos": [
+      {
+        "xref": 13,
+        "source_bytes_sha256": "9378d3027811d9b973a245dfe0c7491caa0b6e6a8bac5dac816044b66c95e9d1",
+        "source_pixel_digest": "1f08302ede096fd0b60c9ee5139631e9"
+      }
+    ],
+    "vector_plan": false,
     "all_source_text_tokens_preserved": true
   }
 ]
