@@ -75,3 +75,8 @@ Usuário relatou falha nos anexos locais do chat para BOOK e site ZIP. Disponibi
 ## Redesign real dos dois PDFs
 
 O usuário esclareceu que queria aprimorar a diagramação dos PDFs, preservando textos e imagens, além do site. Foram criados dois PDFs novos e separados: `assets/vila-parque-empreendimento-redesenhado.pdf` (17 páginas) e `assets/vila-parque-mall-office-redesenhado.pdf` (23 páginas). Novas capas, tipografia, grid, espaçamento, hierarquia e reorganização de fotos e plantas; não são molduras com as páginas antigas dentro. Fotos vêm dos objetos originais, sem substituição ou geração. Textos preservados; auditoria compara contagem de termos por página. Plantas originais incorporadas vetorialmente com novo layout lateral. `tools/redesenhar_pdfs.py` reproduz o trabalho; requisitos e auditoria acompanham. O site oferece estes novos PDFs, capas e 40 prévias novas. Arquivos-fonte originais continuam retidos no repositório.
+
+
+## Uma imagem por slide e orientação corrigida
+
+Fotos de pessoas permanecem exatamente as originais: hashes de pixels verificados. Mapa xref108 estava invertido; corrigido com rotação de apresentação de 180°, sem regravar a imagem. Fachada xref71 mantém a orientação original de 90°. Páginas com duas imagens foram desdobradas, sem exclusão: VP agora 19 páginas, BOOK agora 25. Cada slide editorial usa uma única imagem original (logos e montagens já incorporadas na imagem original são preservados). Plantas permanecem vetoriais. Site remapeado para a nova paginação, preservando as chaves de favoritos existentes.

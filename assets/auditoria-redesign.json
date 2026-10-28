@@ -2,6 +2,7 @@
   {
     "document": "VP",
     "page": 1,
+    "source_page": 1,
     "photos": [
       {
         "xref": 40,
@@ -14,6 +15,7 @@
   {
     "document": "VP",
     "page": 2,
+    "source_page": 2,
     "photos": [
       {
         "xref": 83,
@@ -26,6 +28,7 @@
   {
     "document": "VP",
     "page": 3,
+    "source_page": 3,
     "photos": [
       {
         "xref": 109,
@@ -38,6 +41,7 @@
   {
     "document": "VP",
     "page": 4,
+    "source_page": 4,
     "photos": [
       {
         "xref": 144,
@@ -50,12 +54,21 @@
   {
     "document": "VP",
     "page": 5,
+    "source_page": 5,
     "photos": [
       {
         "xref": 172,
         "source_bytes_sha256": "79acbffaccf2814ed41513f7dcac203ec1e83718a06184870df0403d6bf56aec",
         "source_pixel_digest": "cd6c9b8942f8ac3a6bbb7e6b283fb100"
-      },
+      }
+    ],
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "VP",
+    "page": 6,
+    "source_page": 5,
+    "photos": [
       {
         "xref": 175,
         "source_bytes_sha256": "e2838702cfa0a6d50675e9e6902312810876213b04bd5ebe56e28a5ce88c8a0d",
@@ -66,7 +79,8 @@
   },
   {
     "document": "VP",
-    "page": 6,
+    "page": 7,
+    "source_page": 6,
     "photos": [
       {
         "xref": 201,
@@ -78,7 +92,8 @@
   },
   {
     "document": "VP",
-    "page": 7,
+    "page": 8,
+    "source_page": 7,
     "photos": [
       {
         "xref": 227,
@@ -90,7 +105,8 @@
   },
   {
     "document": "VP",
-    "page": 8,
+    "page": 9,
+    "source_page": 8,
     "photos": [
       {
         "xref": 253,
@@ -102,7 +118,8 @@
   },
   {
     "document": "VP",
-    "page": 9,
+    "page": 10,
+    "source_page": 9,
     "photos": [
       {
         "xref": 279,
@@ -114,7 +131,8 @@
   },
   {
     "document": "VP",
-    "page": 10,
+    "page": 11,
+    "source_page": 10,
     "photos": [
       {
         "xref": 305,
@@ -126,7 +144,8 @@
   },
   {
     "document": "VP",
-    "page": 11,
+    "page": 12,
+    "source_page": 11,
     "photos": [
       {
         "xref": 331,
@@ -138,7 +157,8 @@
   },
   {
     "document": "VP",
-    "page": 12,
+    "page": 13,
+    "source_page": 12,
     "photos": [
       {
         "xref": 357,
@@ -150,7 +170,8 @@
   },
   {
     "document": "VP",
-    "page": 13,
+    "page": 14,
+    "source_page": 13,
     "photos": [
       {
         "xref": 383,
@@ -162,13 +183,22 @@
   },
   {
     "document": "VP",
-    "page": 14,
+    "page": 15,
+    "source_page": 14,
     "photos": [
       {
         "xref": 409,
         "source_bytes_sha256": "df2d91b4d40c7404e086e60cd2bc0901a151d942eabdea5922584684abaff9cc",
         "source_pixel_digest": "bff0f2b7137838b201c9215a8ca665c5"
-      },
+      }
+    ],
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "VP",
+    "page": 16,
+    "source_page": 14,
+    "photos": [
       {
         "xref": 410,
         "source_bytes_sha256": "3334a1c477f93aa57c9359cef59a406dfee3d27a3de52cbf0b5ca380119a04ab",
@@ -179,7 +209,8 @@
   },
   {
     "document": "VP",
-    "page": 15,
+    "page": 17,
+    "source_page": 15,
     "photos": [
       {
         "xref": 436,
@@ -191,7 +222,8 @@
   },
   {
     "document": "VP",
-    "page": 16,
+    "page": 18,
+    "source_page": 16,
     "photos": [
       {
         "xref": 464,
@@ -203,7 +235,8 @@
   },
   {
     "document": "VP",
-    "page": 17,
+    "page": 19,
+    "source_page": 17,
     "photos": [
       {
         "xref": 490,
@@ -216,6 +249,7 @@
   {
     "document": "BOOK",
     "page": 1,
+    "source_page": 1,
     "photos": [
       {
         "xref": 13,
@@ -229,12 +263,22 @@
   {
     "document": "BOOK",
     "page": 2,
+    "source_page": 2,
     "photos": [
       {
         "xref": 108,
         "source_bytes_sha256": "247bc4bb7d947db045ca242e5c46719881e921c9af05f008bc7e832cb8be4ba7",
         "source_pixel_digest": "07aca8752e55adab37b90ec7a5e65d47"
-      },
+      }
+    ],
+    "vector_plan": false,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 3,
+    "source_page": 2,
+    "photos": [
       {
         "xref": 71,
         "source_bytes_sha256": "5a5262a7f450b8b7ac32cbfd912c2f314857e3a5758eb72b1bb098cf9572f52c",
@@ -246,7 +290,8 @@
   },
   {
     "document": "BOOK",
-    "page": 3,
+    "page": 4,
+    "source_page": 3,
     "photos": [
       {
         "xref": 145,
@@ -259,13 +304,23 @@
   },
   {
     "document": "BOOK",
-    "page": 4,
+    "page": 5,
+    "source_page": 4,
     "photos": [
       {
         "xref": 235,
         "source_bytes_sha256": "d5a1d6604b93814ef98dfa98a16700b9ba95c09f6b389e7cc25b57756dfcc26d",
         "source_pixel_digest": "b4f14e56ac74671cc91aa0bdfee04af1"
-      },
+      }
+    ],
+    "vector_plan": false,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 6,
+    "source_page": 4,
+    "photos": [
       {
         "xref": 255,
         "source_bytes_sha256": "4be0994510f0641e546a74467232e531a2ad92ac172ff24eae0d37164ea31b82",
@@ -277,7 +332,8 @@
   },
   {
     "document": "BOOK",
-    "page": 5,
+    "page": 7,
+    "source_page": 5,
     "photos": [
       {
         "xref": 355,
@@ -290,21 +346,8 @@
   },
   {
     "document": "BOOK",
-    "page": 6,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 7,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
     "page": 8,
+    "source_page": 6,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -312,6 +355,7 @@
   {
     "document": "BOOK",
     "page": 9,
+    "source_page": 7,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -319,6 +363,7 @@
   {
     "document": "BOOK",
     "page": 10,
+    "source_page": 8,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -326,6 +371,7 @@
   {
     "document": "BOOK",
     "page": 11,
+    "source_page": 9,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -333,6 +379,7 @@
   {
     "document": "BOOK",
     "page": 12,
+    "source_page": 10,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -340,6 +387,7 @@
   {
     "document": "BOOK",
     "page": 13,
+    "source_page": 11,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -347,6 +395,23 @@
   {
     "document": "BOOK",
     "page": 14,
+    "source_page": 12,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 15,
+    "source_page": 13,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 16,
+    "source_page": 14,
     "photos": [
       {
         "xref": 1158,
@@ -359,21 +424,8 @@
   },
   {
     "document": "BOOK",
-    "page": 15,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
-    "page": 16,
-    "photos": [],
-    "vector_plan": true,
-    "all_source_text_tokens_preserved": true
-  },
-  {
-    "document": "BOOK",
     "page": 17,
+    "source_page": 15,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -381,6 +433,7 @@
   {
     "document": "BOOK",
     "page": 18,
+    "source_page": 16,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -388,6 +441,7 @@
   {
     "document": "BOOK",
     "page": 19,
+    "source_page": 17,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -395,6 +449,7 @@
   {
     "document": "BOOK",
     "page": 20,
+    "source_page": 18,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -402,6 +457,7 @@
   {
     "document": "BOOK",
     "page": 21,
+    "source_page": 19,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -409,6 +465,7 @@
   {
     "document": "BOOK",
     "page": 22,
+    "source_page": 20,
     "photos": [],
     "vector_plan": true,
     "all_source_text_tokens_preserved": true
@@ -416,6 +473,23 @@
   {
     "document": "BOOK",
     "page": 23,
+    "source_page": 21,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 24,
+    "source_page": 22,
+    "photos": [],
+    "vector_plan": true,
+    "all_source_text_tokens_preserved": true
+  },
+  {
+    "document": "BOOK",
+    "page": 25,
+    "source_page": 23,
     "photos": [
       {
         "xref": 13,
