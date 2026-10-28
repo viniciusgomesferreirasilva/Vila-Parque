@@ -60,3 +60,8 @@ O usuário criou o repositório público Vila-Parque, e a leitura Git confirmou 
 O site está publicado no repositório dedicado `viniciusgomesferreirasilva/Vila-Parque`, raiz da main e gh-pages. O deploy nativo 40718779075 concluiu com Status Success em 1m31s. Endereço: https://viniciusgomesferreirasilva.github.io/Vila-Parque/ . Botão Baixar PDF completo validado com download real em Chromium, desktop 1440px e celular 390px; nome Vila-Parque-Apresentacao-Completa.pdf, 41 páginas.
 
 A exclusão do repositório antigo foi tentada após confirmar a publicação e os backups, conforme autorização do usuário: `gh repo delete viniciusgomesferreirasilva/VG-curr-culos-IA --yes`. A API retornou Forbidden; o antigo NÃO foi excluído. O site e todos os próximos trabalhos devem usar este repositório dedicado, não o anterior. A exclusão é a única pendência da migração.
+
+
+## PDFs separados — requisito atual
+
+O usuário alterou o requisito: o primeiro PDF Vila Parque (17 páginas) e o segundo BOOK Mall & Office (23 páginas) devem permanecer SEPARADOS. Instruções anteriores para unir os materiais estão superadas. O site oferece quatro botões: abrir e baixar para cada PDF. Originais mantidos byte a byte. O PDF unificado, seu gerador e auditoria foram removidos da versão atual; continuam no histórico Git. O download do site contém os dois arquivos separados.

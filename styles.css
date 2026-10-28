@@ -12,3 +12,5 @@
 .download-pdf{margin:12px;background:var(--green);color:var(--cream)}.download-pdf:hover{background:#385747}.download-info{font-size:12px!important}@media(max-width:760px){.presentation .button{display:flex;max-width:350px;margin:12px auto}}
 
 .site-download{margin:40px auto 0;padding-top:30px;border-top:1px solid #c5cdbd;max-width:700px}.site-download h3{font-size:28px}.site-download>p{font-size:14px;line-height:1.8;color:var(--muted)}
+
+.pdf-downloads{display:grid;grid-template-columns:1fr 1fr;gap:24px;text-align:left;margin-top:40px}.pdf-downloads article{border:1px solid #c5cdbd;padding:30px;display:flex;flex-direction:column;align-items:stretch}.pdf-downloads article>p{font-size:14px;color:var(--muted);line-height:1.8}.pdf-downloads .button{margin:8px 0;gap:15px}.pdf-downloads .download-info{margin-top:auto;padding-top:15px}@media(max-width:760px){.pdf-downloads{grid-template-columns:1fr}.pdf-downloads .button{max-width:none;width:100%}.pdf-downloads article{padding:22px}}
