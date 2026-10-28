@@ -70,3 +70,8 @@ O usuário alterou o requisito: o primeiro PDF Vila Parque (17 páginas) e o seg
 ## Downloads alternativos
 
 Usuário relatou falha nos anexos locais do chat para BOOK e site ZIP. Disponibilizar links HTTPS do GitHub: BOOK pelo endpoint github.com/.../raw/refs/heads/main/assets/book-mall-office-original.pdf e site pelo codeload.github.com/.../zip/refs/heads/main. Não depender somente de links sandbox temporários. Site ganhou link alternativo do BOOK e download do site via codeload. A pasta /mnt/data não é gravável neste ambiente mesmo com escalonamento; não prometer anexos por esse caminho.
+
+
+## Redesign real dos dois PDFs
+
+O usuário esclareceu que queria aprimorar a diagramação dos PDFs, preservando textos e imagens, além do site. Foram criados dois PDFs novos e separados: `assets/vila-parque-empreendimento-redesenhado.pdf` (17 páginas) e `assets/vila-parque-mall-office-redesenhado.pdf` (23 páginas). Novas capas, tipografia, grid, espaçamento, hierarquia e reorganização de fotos e plantas; não são molduras com as páginas antigas dentro. Fotos vêm dos objetos originais, sem substituição ou geração. Textos preservados; auditoria compara contagem de termos por página. Plantas originais incorporadas vetorialmente com novo layout lateral. `tools/redesenhar_pdfs.py` reproduz o trabalho; requisitos e auditoria acompanham. O site oferece estes novos PDFs, capas e 40 prévias novas. Arquivos-fonte originais continuam retidos no repositório.
