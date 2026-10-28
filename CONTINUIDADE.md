@@ -92,3 +92,10 @@ Usuário pediu remover somente a imagem do slide 7 da apresentação Vila Parque
 O usuário confirmou a opção 2: corrigir o próprio BOOK, não substituí-lo pelo Vila Parque. A foto de pessoas do slide 7 do BOOK (xref355 da fonte, página 5 original) foi retirada. Os títulos Vila Parque / Centro Comercial foram preservados como abertura de seção; BOOK continua com 25 páginas. O PDF Vila Parque de 18 páginas ficou byte a byte inalterado. Site e prévias usam versão `book-slide7-corrigido`.
 
 A causa adicional de confusão era o arquivo ZIP do repositório, que incluía fontes antigas. Download do site passou a `downloads/Vila-Parque-Site.zip`, gerado por `tools/empacotar_site.py`: apenas arquivos usados no site e exatamente dois PDFs atuais. Recriar esse pacote antes de commitar próximas alterações. Originais-fonte continuam no GitHub para reprodução, mas fora do pacote de download do site.
+
+
+## Chrome: “Vírus detectado” no ZIP interativo
+
+Usuário confirmou a mensagem “Vírus detectado”. Nome da ameaça/antivírus ainda solicitado, sem resposta até aqui. Revisão local e cópia pública verificaram mesmo SHA-256; não houve substituição no transporte. ZIP não continha programas executáveis; JS inspecionado contém apenas menu, busca, favoritos e galeria. PDFs revisados não contêm JavaScript, OpenAction, Launch, EmbeddedFile, RichMedia nem anexos. Sem antivírus instalado: não afirmar ausência de malware, falso positivo ou alerta resolvido.
+
+Download principal alterado para `downloads/Vila-Parque-Consulta.zip`, cópia passiva sem JavaScript/SVG/formulários, com fotos e os dois PDFs atuais. Site online continua interativo. Empacotador gera manifesto SHA-256 e explicita ausência de análise por antivírus. O ZIP interativo anterior foi removido da versão atual, sem esconder suas extensões nem instruir bypass das proteções. A versão passiva é uma alternativa de consulta com limitações explícitas; investigar a detecção específica quando o usuário informar os detalhes.
