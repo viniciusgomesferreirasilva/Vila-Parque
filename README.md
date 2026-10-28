@@ -17,3 +17,7 @@ Depois de validar e commitar, execute `python3 publicar.py`. O script salva main
 ## PDF e imagens
 
 `python3 unificar_pdf.py` gera o PDF único com capa, 17 páginas do VP e 23 páginas do BOOK. Requer PyMuPDF e Pillow. Verifica textos e hashes das imagens das 40 páginas-fonte. Fotografias originais não devem ser substituídas. O site oferece abertura e download direto do PDF, sem ZIP.
+
+## Baixar o site
+
+Na página, use **Baixar site completo**, ou baixe https://github.com/viniciusgomesferreirasilva/Vila-Parque/archive/refs/heads/main.zip . Extraia a pasta e abra `index.html` no navegador. Conteúdo, imagens e PDF são locais; somente links externos, como o mapa, exigem internet. O arquivo também contém o código para editar ou hospedar o site em outro serviço.
