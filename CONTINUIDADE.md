@@ -80,3 +80,8 @@ O usuário esclareceu que queria aprimorar a diagramação dos PDFs, preservando
 ## Uma imagem por slide e orientação corrigida
 
 Fotos de pessoas permanecem exatamente as originais: hashes de pixels verificados. Mapa xref108 estava invertido; corrigido com rotação de apresentação de 180°, sem regravar a imagem. Fachada xref71 mantém a orientação original de 90°. Páginas com duas imagens foram desdobradas, sem exclusão: VP agora 19 páginas, BOOK agora 25. Cada slide editorial usa uma única imagem original (logos e montagens já incorporadas na imagem original são preservados). Plantas permanecem vetoriais. Site remapeado para a nova paginação, preservando as chaves de favoritos existentes.
+
+
+## Remoção final solicitada — slide 7 do Vila Parque
+
+Usuário pediu remover somente a imagem do slide 7 da apresentação Vila Parque. Correspondia à imagem xref201 da fonte VP, em uma página sem texto editorial. A imagem foi excluída do gerador e o slide vazio foi eliminado; VP passa de 19 para 18 páginas, com paginação ajustada. BOOK continua com 25 páginas e seu PDF não foi modificado. Usar `python3 tools/redesenhar_pdfs.py --document VP` para atualizar apenas o empreendimento. Galeria e download do site atualizados, sem outras alterações de conteúdo.

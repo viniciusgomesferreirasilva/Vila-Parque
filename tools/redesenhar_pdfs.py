@@ -2,7 +2,7 @@
 from pathlib import Path
 from io import BytesIO
 from collections import Counter
-import json,re,html,hashlib
+import json,re,html,hashlib,argparse
 import fitz
 from PIL import Image
 from reportlab.pdfgen import canvas
@@ -20,7 +20,12 @@ for name,file in [('Sans','DejaVuSans.ttf'),('Serif','DejaVuSerif.ttf')]:
 W,H=1280,800
 GREEN='#253f34';CREAM='#f5f3ec';GOLD='#c7ac73';MUTED='#626d62'
 EXCLUDE={5,7,9,34,36,38,44,81,462}
+parser=argparse.ArgumentParser()
+parser.add_argument('--document',choices=['VP','BOOK','ALL'],default='ALL')
+args=parser.parse_args()
 audit=[]
+if args.document!='ALL' and (ROOT/'assets/auditoria-redesign.json').exists():
+ audit=[r for r in json.loads((ROOT/'assets/auditoria-redesign.json').read_text()) if r['document']!=args.document]
 def color(c,value):c.setFillColor(value)
 def text(c,value,x,y,size=14,font='Sans',fill=GREEN):
  color(c,fill);c.setFont(font,size);c.drawString(x,y,value)
@@ -69,7 +74,7 @@ def vp():
   seen=set()
   for entry in source_page.get_images():
    x=entry[0]
-   if x not in EXCLUDE and x not in seen and src.extract_image(x)['ext']=='jpeg':
+   if x not in EXCLUDE and x != 201 and x not in seen and src.extract_image(x)['ext']=='jpeg':
     work.append((source_i,x));seen.add(x)
  for output_i,(i,selected_xref) in enumerate(work):
   page=src[i]
@@ -179,6 +184,7 @@ def book():
 
 def words(s):return Counter(re.findall(r'\w+',s.replace('\uf075',''),re.UNICODE))
 for label,fn,outname in [('VP',vp,'vila-parque-empreendimento-redesenhado.pdf'),('BOOK',book,'vila-parque-mall-office-redesenhado.pdf')]:
+ if args.document not in ['ALL',label]:continue
  source,result,records=fn()
  result.set_metadata({'title':'Vila Parque | '+('O empreendimento' if label=='VP' else 'Mall & Office'),'author':'Vila Parque','subject':'Nova diagramação com textos, fotografias e plantas originais'})
  out=ROOT/'assets'/outname;result.save(out,garbage=4,deflate=True);result.close()

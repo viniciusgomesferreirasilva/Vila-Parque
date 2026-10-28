@@ -4,7 +4,7 @@ Site: https://viniciusgomesferreirasilva.github.io/Vila-Parque/
 
 ## Apresentações separadas
 
-1. `assets/vila-parque-empreendimento-redesenhado.pdf`: apresentação Vila Parque redesenhada, 19 páginas.
+1. `assets/vila-parque-empreendimento-redesenhado.pdf`: apresentação Vila Parque redesenhada, 18 páginas.
 2. `assets/vila-parque-mall-office-redesenhado.pdf`: BOOK Mall & Office redesenhado, 25 páginas.
 
 Os dois PDFs têm nova composição, tipografia, capas e organização. Textos, fotos e plantas são dos originais. As plantas técnicas permanecem vetoriais. O site tem botões separados para abrir e baixar cada um. O PDF unificado foi removido da versão atual por solicitação do usuário.
